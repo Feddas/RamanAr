@@ -30,3 +30,7 @@ Csvs/*
 *.pdb
 *.lib
 *.exp
+
+# only include *.meta files
+/Assets/_RamanAr/Art/**/*.*
+!/Assets/_RamanAr/Art/**/*.meta
