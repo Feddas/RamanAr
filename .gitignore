@@ -1,0 +1,32 @@
+# Unity generated
+Library/
+Temp/
+# Updates between unity versions don't need to be tracked
+/Logs/*
+
+# Visual Studio
+*.csproj
+*.sln
+.vs/
+obj/*
+
+# Packages
+/Packages/*/*
+!/Packages/manifest.json
+!/Packages/*/package.json
+
+# Match directories anywhere in the repository
+**/DontCommit/*
+
+# Custom
+[Bb]uilds/*
+[Bb]uild/*
+Csvs/*
+/zipStruct*
+
+# LFS files are not tracked, instead stored in a zip
+/Assets/TextMesh Pro/*
+*.dll
+*.pdb
+*.lib
+*.exp
