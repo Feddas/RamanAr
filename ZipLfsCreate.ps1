@@ -13,11 +13,16 @@ $lfsAssetFiles =
 "\Assets\TextMesh Pro",
 "\Packages"
 
+# a package.json file should be used for versioning
+$packagePath = Join-Path $PSScriptRoot "\Broadcast\Assets\_HmdOverUdp\package.json"
+
 # This is where the contents of the zip file will be structured, because placing them inside of a specific folder of the zip is difficult otherwise
 $zipStruct = $PSScriptRoot + "\zipStruct"
 
 # the actual zip file that will be created
-$zipDestination = Join-Path $PSScriptRoot "\Builds\ArCoreLfs0.0.1.zip"
+$zipDestination = Join-Path $PSScriptRoot "\Builds\LfsArCore0.0.1.zip"
+# $package = Get-Content -Raw -Path $packagePath | ConvertFrom-Json
+# $zipDestination = $PSScriptRoot + "\Builds\Lfs" + $package.displayName + $package.version + ".zip"
 
 # remove files from previous runs of this script
 If(Test-path $zipStruct) {Remove-item $zipStruct -Recurse}
