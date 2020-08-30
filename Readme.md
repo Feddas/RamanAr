@@ -2,6 +2,8 @@
 
 Navigate 3D mesh of a Raman Spectroscopy in AR.
 
+![](https://github.com/Feddas/RamanAr/releases/download/0.0.1/Screenshot_RamanAr0.0.1.jpg)
+
 # Usage
 
 1. Install [RamanAr#.#.#.apk](https://github.com/Feddas/MarqMetrix/releases) on [Android device with ArCore support](https://developers.google.com/ar/discover/supported-devices).
@@ -26,4 +28,4 @@ The code could be modified to use Raman Spectoscopy data from MarqMetrix to gene
 
 # Repositories
 
-Github: https://github.com/Feddas/MarqMetrix
+Github: https://github.com/Feddas/RamanAr
